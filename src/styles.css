@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+.primary {
+  background-color: #007bff;
+  color: white;
+}
+.secondary {
+  background-color: #6c757d;
+  color: white;
+}
+.success {
+  background-color: #28a745;
+  color: white;
+}
+.danger {
+  background-color: #dc3545;
+  color: white;
+}
+.warning {
+  background-color: #ffc107;
+  color: black;
+}
+.info {
+  background-color: #17a2b8;
+  color: white;
+}
+.light {
+  background-color: #f8f9fa;
+  color: black;
+}
+.dark {
+  background-color: #343a40;
+  color: white;
+}
