@@ -1,0 +1,23 @@
+🚀 Pro Tips (Important for Interview)
+Pipes are pure by default
+Use pure: false only when needed (performance impact)
+Pipes are used for transformation only
+Avoid heavy logic in pipes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
