@@ -5,6 +5,7 @@ import { Pipe, PipeTransform } from '@angular/core';
 })
 export class UniqueIdPipe implements PipeTransform {
   transform(value: unknown, ...args: unknown[]): unknown {
-    return null;
+    const [prefix] = args;
+    return `${prefix}-${Math.random().toString(36).substr(2, 9)}`;
   }
 }
